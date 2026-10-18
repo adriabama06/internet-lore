@@ -20,7 +20,7 @@ How will the data be displayed? My idea is to perhaps generate a static HTML web
 
 If possible, when including the date of release, please be as precise as possible: day, month, year. If it's something that happens very quickly, add details to the description about the time it was released and what happened that same day in the following hours. (Should we use UTC+0?)
 
-Example of how the above should look once rendered (first idea):
+Example of how the above should look once rendered (first idea):  
 ![Idea](./idea.svg)
 
 Perhaps it would be better to make the icons smaller? (We'll see.) Also, it's possible that the lines could pass behind the signs, and the lines will be semi-transparent so as not to be distracting.
@@ -30,5 +30,5 @@ I would love for this to last much longer in the future, as a way to look back o
 
 This is just a small part of the things that have affected the internet. These are things that more experienced users, those who have spent more time on it, know. And although it might not seem like it, there are connections between them. And we wouldn't even need to add all the memes and lore surrounding them. The internet is enormous. The moment those of us who know these relationships die, it will be very difficult to connect everything. There are things that aren't even written down; they are experiences that haven't been recorded. I hope this project works and inspires you. EVERY contribution will be a great help.
 
-By the way, if for some reason you know and have context for most of the things above (to be honest, I haven't included so many older things because they don't come to mind right now; for example, I left out Troll Face, Troll Song, rage comics (Trollface, LOL Guy, Forever Alone, Fuck Yeah, Cereal Guy). Sorry, too much text... Well, if you know the things above, then you're a real internet geek.
+By the way, if for some reason you know and have context for most of the things above (to be honest, I haven't included so many older things because they don't come to mind right now; for example, I left out Troll Face, Troll Song, rage comics (Trollface, LOL Guy, Forever Alone, Fuck Yeah, Cereal Guy). Sorry, too much text... Well, if you know the things above, then you're a real internet geek.  
 ![Ball Knowleage](./ball-knowledge.png)

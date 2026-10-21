@@ -1,0 +1,16 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=rB7XFQgJHBI
+[youtube] rB7XFQgJHBI: Downloading webpage
+[youtube] rB7XFQgJHBI: Downloading web embedded client config
+[youtube] rB7XFQgJHBI: Downloading player 55de7e60-main
+[youtube] rB7XFQgJHBI: Downloading web embedded player API JSON
+[youtube] rB7XFQgJHBI: Downloading tv downgraded player API JSON
+[youtube] [jsc:node] Solving JS challenges using node
+[info] rB7XFQgJHBI: Downloading 1 format(s): 399+251
+[download] Sleeping 5.00 seconds as required by the site...
+[download] Destination: タイニーリトル・アジアンタム [rB7XFQgJHBI].f399.mp4
+[download] 100% of   20.95MiB in 00:00:01 at 11.49MiB/s
+[download] Destination: タイニーリトル・アジアンタム [rB7XFQgJHBI].f251.webm
+[download] 100% of    6.14MiB in 00:00:00 at 11.21MiB/s
+[Merger] Merging formats into "タイニーリトル・アジアンタム [rB7XFQgJHBI].webm"
+Deleting original file タイニーリトル・アジアンタム [rB7XFQgJHBI].f251.webm (pass -k to keep)
+Deleting original file タイニーリトル・アジアンタム [rB7XFQgJHBI].f399.mp4 (pass -k to keep)

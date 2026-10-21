@@ -1,0 +1,1 @@
+For example if a video is in a non browser compatible format it can be converted BUT THE ORIGINAL FILE must be stored here for preservation

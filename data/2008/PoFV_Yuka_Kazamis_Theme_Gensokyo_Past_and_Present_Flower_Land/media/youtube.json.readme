@@ -1,0 +1,3 @@
+Info extracted using https://mattw.io/youtube-metadata/ (for the example), better next time use directly the youtube api with your own api key to get more information
+
+The video is downloaded using yt-dlp with best settings (highest youtube version)

@@ -1,0 +1,40 @@
+﻿#axis {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--axis-w);
+  z-index: 5;
+  pointer-events: none;
+  background: linear-gradient(to right, var(--bg) 70%, transparent);
+}
+
+#axis::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  bottom: 14px;
+  border-left: 2px solid var(--ink);
+}
+
+#axis::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  bottom: 8px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  transform: rotate(45deg);
+}
+
+#axis .year {
+  position: absolute;
+  left: 22px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+

@@ -1,4 +1,4 @@
-# Contributing to internet-lore
+﻿# Contributing to internet-lore
 
 Thanks for helping preserve the origins and connections of internet culture. Every well-sourced entry helps, even if it is small.
 
@@ -22,7 +22,7 @@ npm install
 - `data/<year>/<slug>/_extra/`: binaries and other files that are not displayed directly.
 - `data/entry.schema.json`: schema for `entry.json`.
 - `data/tags.json`: allowed tags.
-- `src/`: static frontend (Vite + Cytoscape.js): `index.html`, `main.js`, `style.css`, `vite.config.js` and `build-data.mjs` (generates `public/graph.json` and the layout).
+- `src/`: static frontend (Vite + Cytoscape.js). See "Code structure" below.
 - `scripts/`: entry validator.
 
 ## Add an entry
@@ -67,7 +67,7 @@ npm run preview
 
 `npm run build` validates, rebuilds the generated data and writes the static site to `dist/`.
 
-Pushes to `main` deploy the site with `.github/workflows/deploy.yml`. The repository must have Pages configured with **Source: GitHub Actions** under Settings → Pages.
+Pushes to `main` deploy the site with `.github/workflows/deploy.yml`. The repository must have Pages configured with **Source: GitHub Actions** under Settings â†’ Pages.
 
 ## Media and Git LFS
 
@@ -90,3 +90,27 @@ The relevant extensions are listed in `.gitattributes`. Keep files reasonably si
 ## Licensing
 
 The repository code is released under The Unlicense. That does not grant rights over third-party media. Only contribute files you have permission to redistribute, and always record the original source URL in the entry.
+
+## Code structure
+
+```
+src/
+  index.html, main.js, vite.config.js
+  shared/dates.mjs        date helpers used by the build and the browser
+  build/                  Node, runs before Vite: data/ -> public/graph.json
+    build-data.mjs        entry point
+    readEntries.mjs       finds and reads every entry.json
+    assets.mjs            copies icon/ and media/ to public/data/, detects media kinds
+    graph.mjs             builds nodes and edges
+    layout/               rows.mjs (y by date), columns.mjs (x), index.mjs
+  app/                    browser
+    App.js                creates and connects everything
+    data/GraphData.js     read-only view of graph.json (adjacency, search, years)
+    state/                Store, AppStore (selection, query, tags), visibility, HashRouter
+    graph/                Cytoscape: GraphView, Viewport (camera), styles, elements, icons, labels
+    ui/                   SearchBox, TagFilter, YearAxis, Tooltip, DetailsPanel, templates
+    lib/                  small helpers (dom, text, color)
+  styles/                 one CSS file per component
+```
+
+Data flows one way: `GraphData` (immutable) + `AppStore` (UI state) -> `computeVisibility` -> `GraphView`/UI. Components do not talk to each other; `App` wires them.

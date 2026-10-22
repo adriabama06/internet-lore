@@ -1,0 +1,51 @@
+﻿#tooltip {
+  position: absolute;
+  z-index: 10;
+  width: 340px;
+  max-width: calc(100% - 24px);
+  padding: 12px 14px;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  font-size: 13px;
+  line-height: 1.4;
+  pointer-events: none;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.15);
+}
+
+#tooltip .date,
+#details .date {
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 13px;
+}
+
+#tooltip p {
+  margin: 4px 0 8px;
+  color: #333;
+}
+
+#tooltip h4 {
+  margin: 8px 0 4px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#tooltip .links {
+  overflow-wrap: anywhere;
+  color: #1a56a8;
+}
+
+#tooltip .thumbs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+#tooltip .thumbs img {
+  height: 64px;
+  max-width: 110px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+

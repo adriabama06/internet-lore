@@ -22,8 +22,8 @@ npm install
 - `data/<year>/<slug>/_extra/`: binaries and other files that are not displayed directly.
 - `data/entry.schema.json`: schema for `entry.json`.
 - `data/tags.json`: allowed tags.
-- `src/`: static frontend (Vite + Cytoscape.js).
-- `scripts/`: entry validator and static data builder.
+- `src/`: static frontend (Vite + Cytoscape.js): `index.html`, `main.js`, `style.css`, `vite.config.js` and `build-data.mjs` (generates `public/graph.json` and the layout).
+- `scripts/`: entry validator.
 
 ## Add an entry
 

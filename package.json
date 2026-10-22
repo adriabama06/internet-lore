@@ -3,10 +3,18 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "build:data": "node src/build-data.mjs",
+    "dev": "npm run validate && npm run build:data && vite --config src/vite.config.js",
+    "build": "npm run validate && npm run build:data && vite build --config src/vite.config.js",
+    "preview": "vite preview --config src/vite.config.js"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
-    "ajv-formats": "^3.0.1"
+    "ajv-formats": "^3.0.1",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "cytoscape": "^3.34.4"
   }
 }

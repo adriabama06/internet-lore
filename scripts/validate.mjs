@@ -104,7 +104,7 @@ async function main() {
   });
 
   const validateEntry = ajv.compile(
-    await readJson(join(repoRoot, "entry.schema.json")),
+    await readJson(join(dataDir, "entry.schema.json")),
   );
 
   const entryFiles = await findEntryFiles(dataDir);

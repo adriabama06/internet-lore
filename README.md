@@ -32,3 +32,7 @@ This is just a small part of the things that have affected the internet. These a
 
 By the way, if for some reason you know and have context for most of the things above (to be honest, I haven't included so many older things because they don't come to mind right now; for example, I left out Troll Face, Troll Song, rage comics (Trollface, LOL Guy, Forever Alone, Fuck Yeah, Cereal Guy). Sorry, too much text... Well, if you know the things above, then you're a real internet geek.  
 ![Ball Knowleage](./ball-knowledge.png)
+
+
+# The code
+For now, the code is AI-generated, just to have a demo ready. This isn't the final version, and when I have time, I'll seriously build it from scratch. What we have now is like a "preview" or "test" to get everything more or less set up and ready to start adding features. The main part will be gathering as much data as possible. If anyone wants to get ahead of me and build the frontend to generate the website with the graphs, go ahead; you can start without any problems.

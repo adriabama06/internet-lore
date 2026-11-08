@@ -1,0 +1,10 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=S_gnnnAEcso
+[youtube] S_gnnnAEcso: Downloading webpage
+[youtube] S_gnnnAEcso: Downloading visionos player API JSON
+[youtube] S_gnnnAEcso: Downloading m3u8 information
+[info] S_gnnnAEcso: Downloading 1 format(s): 398+251
+[download] Destination: Wholesome Parrots Dancing [S_gnnnAEcso].f398.mp4
+[download] Destination: Wholesome Parrots Dancing [S_gnnnAEcso].f251.webm
+[Merger] Merging formats into "Wholesome Parrots Dancing [S_gnnnAEcso].webm"
+Deleting original file Wholesome Parrots Dancing [S_gnnnAEcso].f398.mp4 (pass -k to keep)
+Deleting original file Wholesome Parrots Dancing [S_gnnnAEcso].f251.webm (pass -k to keep)

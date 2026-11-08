@@ -1,0 +1,10 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Ejv0Gk-mGko
+[youtube] Ejv0Gk-mGko: Downloading webpage
+[youtube] Ejv0Gk-mGko: Downloading visionos player API JSON
+[youtube] Ejv0Gk-mGko: Downloading m3u8 information
+[info] Ejv0Gk-mGko: Downloading 1 format(s): 399-sr+251
+[download] Destination: Shibayan Records - Tiny Little Adiantum (deadman 死人 Remix) [Omae Wa Mou] [Ejv0Gk-mGko].f399-sr.mp4
+[download] Destination: Shibayan Records - Tiny Little Adiantum (deadman 死人 Remix) [Omae Wa Mou] [Ejv0Gk-mGko].f251.webm
+[Merger] Merging formats into "Shibayan Records - Tiny Little Adiantum (deadman 死人 Remix) [Omae Wa Mou] [Ejv0Gk-mGko].webm"
+Deleting original file Shibayan Records - Tiny Little Adiantum (deadman 死人 Remix) [Omae Wa Mou] [Ejv0Gk-mGko].f399-sr.mp4 (pass -k to keep)
+Deleting original file Shibayan Records - Tiny Little Adiantum (deadman 死人 Remix) [Omae Wa Mou] [Ejv0Gk-mGko].f251.webm (pass -k to keep)

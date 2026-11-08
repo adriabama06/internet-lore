@@ -1,0 +1,13 @@
+{
+    "title": "Minecraft",
+    "description": "Sandbox videogame built out of blocks, developed by Markus \"Notch\" Persson at Mojang. Notch started development on 2009-05-10 and publicly released the first version on 2009-05-17 as \"Cave Game\", sold as an early-access alpha and later beta while it was already becoming an internet phenomenon; the \"complete\" 1.0 release arrived on 2011-11-18 at MINECON 2011. Players explore a randomly generated world, mine and place blocks, craft items and build, in survival or creative mode. It became the best-selling videogame of all time and spawned a large mod, server and video ecosystem. Update 1.12 on 2017-06-07 added parrots, tameable mobs that dance when a jukebox nearby plays music (a reference to the Party Parrot meme); that mechanic led to the video 2019/wholesome_parrots_dancing.",
+    "creation": "2009-05-17",
+    "tags": ["videogame", "minecraft"],
+    "urls": [
+        "https://www.minecraft.net/",
+        "https://en.wikipedia.org/wiki/Minecraft",
+        "https://minecraft.wiki/w/Java_Edition_version_history",
+        "https://minecraft.wiki/w/Edition"
+    ],
+    "connect": []
+}

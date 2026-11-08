@@ -43,7 +43,7 @@ npm install
 
 3. Use ISO 8601 dates: `YYYY`, `YYYY-MM` or `YYYY-MM-DD`. Prefer the most precise date you can verify. Use UTC+0 when adding times in the description.
 4. Tags must exist in `data/tags.json`. Add new tags there using lowercase letters, numbers and hyphens.
-5. `connect` is an array of entry ids, for example `"2008/PoFV_Yuka_Kazamis_Theme_Gensokyo_Past_and_Present_Flower_Land"`. Describe the type of relationship in the entry description for now. Entries cannot connect to themselves.
+5. `connect` is an array of entry ids, for example `"2008/PoFV_Yuka_Kazamis_Theme_Gensokyo_Past_and_Present_Flower_Land"`. Connections always point backwards: the derived work, meme, remix, parody or clip connects to the original work it references. The original entry does not need to connect back to its derivatives. Describe the type of relationship in the entry description for now. Entries cannot connect to themselves.
 6. Add media inside `icon/`, `media/`, `_original/` or `_extra/`. Keep the original filename and format when possible.
 7. Validate your work:
 

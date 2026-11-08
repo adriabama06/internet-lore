@@ -1,0 +1,47 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=K-wStWteSxk
+[youtube] K-wStWteSxk: Downloading webpage
+[youtube] K-wStWteSxk: Downloading visionos player API JSON
+[youtube] K-wStWteSxk: Downloading m3u8 information
+[info] K-wStWteSxk: Downloading 1 format(s): 398+251
+[download] Destination: data\2017\the_amazing_world_of_gumball_filth_filth_all_around\media\The Amazing World of Gumball - Teri's J-Pop Music Video [K-wStWteSxk].f398.mp4
+
+[download]   0.0% of    6.16MiB at  662.50KiB/s ETA 00:09
+[download]   0.0% of    6.16MiB at    1.45MiB/s ETA 00:04
+[download]   0.1% of    6.16MiB at    3.38MiB/s ETA 00:01
+[download]   0.2% of    6.16MiB at    7.24MiB/s ETA 00:00
+[download]   0.5% of    6.16MiB at   10.00MiB/s ETA 00:00
+[download]   1.0% of    6.16MiB at   15.27MiB/s ETA 00:00
+[download]   2.0% of    6.16MiB at   18.98MiB/s ETA 00:00
+[download]   4.0% of    6.16MiB at   27.36MiB/s ETA 00:00
+[download]   8.1% of    6.16MiB at   38.74MiB/s ETA 00:00
+[download]  16.2% of    6.16MiB at   57.44MiB/s ETA 00:00
+[download]  32.5% of    6.16MiB at   70.01MiB/s ETA 00:00
+[download]  65.0% of    6.16MiB at   51.55MiB/s ETA 00:00
+[download] 100.0% of    6.16MiB at   47.43MiB/s ETA 00:00
+[download] 100% of    6.16MiB in 00:00:00 at 34.21MiB/s  
+[download] Destination: data\2017\the_amazing_world_of_gumball_filth_filth_all_around\media\The Amazing World of Gumball - Teri's J-Pop Music Video [K-wStWteSxk].f251.webm
+
+[download]   0.2% of  609.55KiB at  998.64KiB/s ETA 00:00
+[download]   0.5% of  609.55KiB at    2.93MiB/s ETA 00:00
+[download]   1.1% of  609.55KiB at    6.83MiB/s ETA 00:00
+[download]   2.5% of  609.55KiB at   14.63MiB/s ETA 00:00
+[download]   5.1% of  609.55KiB at    2.78MiB/s ETA 00:00
+[download]  10.3% of  609.55KiB at    3.06MiB/s ETA 00:00
+[download]  20.8% of  609.55KiB at    4.04MiB/s ETA 00:00
+[download]  41.8% of  609.55KiB at    6.13MiB/s ETA 00:00
+[download]  83.8% of  609.55KiB at    9.48MiB/s ETA 00:00
+[download] 100.0% of  609.55KiB at   10.89MiB/s ETA 00:00
+[download] 100% of  609.55KiB in 00:00:00 at 4.61MiB/s   
+[Merger] Merging formats into "data\2017\the_amazing_world_of_gumball_filth_filth_all_around\media\The Amazing World of Gumball - Teri's J-Pop Music Video [K-wStWteSxk].webm"
+Deleting original file data\2017\the_amazing_world_of_gumball_filth_filth_all_around\media\The Amazing World of Gumball - Teri's J-Pop Music Video [K-wStWteSxk].f251.webm (pass -k to keep)
+Deleting original file data\2017\the_amazing_world_of_gumball_filth_filth_all_around\media\The Amazing World of Gumball - Teri's J-Pop Music Video [K-wStWteSxk].f398.mp4 (pass -k to keep)
+[youtube] Extracting URL: https://www.youtube.com/watch?v=K-wStWteSxk
+[youtube] K-wStWteSxk: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] K-wStWteSxk: Downloading visionos player API JSON
+[youtube] K-wStWteSxk: Downloading m3u8 information
+[info] K-wStWteSxk: Downloading 1 format(s): 398+251
+[info] Downloading video thumbnail 41 ...
+[info] Writing video thumbnail 41 to: data\2017\the_amazing_world_of_gumball_filth_filth_all_around\icon\K-wStWteSxk.webp
+[ThumbnailsConvertor] Converting thumbnail "data\2017\the_amazing_world_of_gumball_filth_filth_all_around\icon\K-wStWteSxk.webp" to jpg
+Deleting original file data\2017\the_amazing_world_of_gumball_filth_filth_all_around\icon\K-wStWteSxk.webp (pass -k to keep)
